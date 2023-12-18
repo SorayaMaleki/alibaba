@@ -26,3 +26,9 @@ RUN apk update && apk upgrade
 RUN docker-php-ext-install pdo pdo_mysql bcmath
 
 CMD ["php-fpm", "-y", "/usr/local/etc/php-fpm.conf", "-R"]
+
+# Install composer
+RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
+RUN composer install
+# Copy composer.lock and composer.json
+COPY ./abra_back/composer.lock ./abra_back/composer.json /var/www/
