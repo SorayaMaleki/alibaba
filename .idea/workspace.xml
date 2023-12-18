@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6936886-c255-4c67-aefa-6a8e1d7ab72f" name="Changes" comment="change dockerfile">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/php.dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/docker/php.dockerfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +167,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1702913489320</updated>
-      <workItem from="1702913493608" duration="3753000" />
+      <workItem from="1702913493608" duration="4073000" />
     </task>
     <task id="LOCAL-00001" summary="change readme file">
       <created>1702914239957</created>
@@ -190,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1702918413956</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="change dockerfile">
+      <created>1702919888873</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1702919888873</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

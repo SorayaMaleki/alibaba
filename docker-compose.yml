@@ -61,7 +61,7 @@ services:
       - ./docker/mysql:/var/lib/mysql
     networks:
       - laravel
-    
+
 
   phpmyadmin:
     image: phpmyadmin:5.2.0
@@ -79,6 +79,26 @@ services:
     networks:
       - laravel
 
+  composer:
+    build:
+      context: ./docker
+      dockerfile: composer.dockerfile
+      args:
+        - UID=${UID:-1000}
+        - GID=${GID:-1000}
+        - USER=${USER:-laravel}
+    container_name: composer
+    volumes:
+      - ./src:/var/www/html
+      - .env:/var/www/html/.env
+    working_dir: /var/www/html
+    depends_on:
+      - php
+    user: ${USER:-laravel} #system user
+    profiles: [ "composer" ]
+    entrypoint: [ 'composer', '--ignore-platform-reqs' ]
+    networks:
+      - laravel
   npm:
     image: node:alpine
     container_name: npm
@@ -89,8 +109,8 @@ services:
       - 3000:3000
       - 3001:3001
     working_dir: /var/www/html
-    profiles: ["npm"]
-    entrypoint: ['npm']
+    profiles: [ "npm" ]
+    entrypoint: [ 'npm' ]
     networks:
       - laravel
 
