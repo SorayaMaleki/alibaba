@@ -96,7 +96,7 @@ services:
       - php
     user: ${USER:-laravel} #system user
     profiles: [ "composer" ]
-    entrypoint: [ 'composer', '--ignore-platform-reqs' ]
+    entrypoint: [ 'composer' ]
     networks:
       - laravel
   npm:
