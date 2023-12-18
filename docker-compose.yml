@@ -21,12 +21,8 @@ services:
       - .env:/var/www/html/.env
     depends_on:
       - php
-      - redis
       - mysql
-      - laravel-queue
-      - laravel-cron
       - phpmyadmin
-      - mailhog
     networks:
       - laravel
 

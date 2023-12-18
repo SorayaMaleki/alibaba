@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f6936886-c255-4c67-aefa-6a8e1d7ab72f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/alibaba.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/alibaba.iml" afterDir="false" />
+    <list default="true" id="f6936886-c255-4c67-aefa-6a8e1d7ab72f" name="Changes" comment="change dockerfile">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,7 +147,9 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../abra_front_develop" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -167,11 +167,42 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1702913489320</updated>
-      <workItem from="1702913493608" duration="695000" />
+      <workItem from="1702913493608" duration="2618000" />
     </task>
+    <task id="LOCAL-00001" summary="change readme file">
+      <created>1702914239957</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1702914239957</updated>
+    </task>
+    <task id="LOCAL-00002" summary="change dockerfile">
+      <created>1702914316755</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1702914316755</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="change readme file" />
+    <MESSAGE value="change dockerfile" />
+    <option name="LAST_COMMIT_MESSAGE" value="change dockerfile" />
   </component>
 </project>
