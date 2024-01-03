@@ -96,7 +96,7 @@ services:
       - php
     user: ${USER:-laravel} #system user
     profiles: [ "composer" ]
-    entrypoint: [ 'composer' ]
+    # entrypoint: [ 'composer' ]
     networks:
       - laravel
   npm:
