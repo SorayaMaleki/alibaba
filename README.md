@@ -3,7 +3,6 @@
 ## Table of Contents
 
 - [Getting Started](#getting-started)
-- [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Patterns](#patterns)
 - [Testing](#testing)
