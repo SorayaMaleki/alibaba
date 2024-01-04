@@ -18,4 +18,4 @@ RUN delgroup dialout
 RUN addgroup -g ${GID} --system ${USER}
 RUN adduser -G ${USER} --system -D -s /bin/sh -u ${UID} ${USER}
 
-CMD bash -c "composer install --prefer-dist --optimize-autoloader && composer du"
+CMD bash -c "composer clear-cache && composer install --prefer-dist --optimize-autoloader && composer du"
