@@ -5,7 +5,7 @@
 - [Getting Started](#getting-started)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
-- [Code Style and Patterns](#code-style-and-patterns)
+- [Patterns](#patterns)
 - [Testing](#testing)
 
 ## Getting Started
@@ -71,7 +71,7 @@ purposes.
     ```bash
     docker-compose exec php php artisan make:user
     ```
-
+## patterns
 - **Repository Pattern**: The project utilizes the Repository pattern for data access.
 -
 
