@@ -72,19 +72,6 @@ purposes.
     docker-compose exec php php artisan make:user
     ```
 
-### Code Style and Patterns
-
-- **PSR-12 for Code Style**: This project follows the PSR-12 (PHP Standard Recommendation) for code style, ensuring a
-  consistent and readable codebase.
-
-
-- **PSR-5 for DocBlocks**: PSR-5 is used for DocBlocks in this project, providing standardized documentation comments
-  for classes, methods, and properties.
-
-
-- **Observer Pattern**: The project utilizes the Observer pattern for handling events and state changes.
-
-
 - **Repository Pattern**: The project utilizes the Repository pattern for data access.
 -
 
